@@ -1,0 +1,21 @@
+<form>
+    <div>
+        <label for="name">Name</label> <br>
+        <input class="form-control" type="text" ng-model="name"> 
+    </div>
+    <div>
+        <label for="price">Price</label>  <br>
+        <input class="form-control" type="text" ng-model="price"> 
+    </div>
+    <div>
+        <label for="quantity">Quantity</label> <br>
+        <input class="form-control" type="text" ng-model="quantity"> 
+    </div>
+    <div>
+        <label for="category">Category</label> <br>
+        <select class="form-control" ng-model="selectedCategory" ng-options="category.name for category in categories track by category.id">
+            <option value="">Select a category</option>
+        </select>
+    </div>
+    <button type="submit" ng-click="addProduct()">Add New</button> 
+</form>

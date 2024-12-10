@@ -1,0 +1,115 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .cart-summary,
+  .cart-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .cart-summary {
+    align-items: center;
+  }
+
+  .cart-summary .cart-total {
+    text-align: right;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #ddd;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .product-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .remove-item {
+    color: red;
+    cursor: pointer;
+  }
+
+  .cart-total {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  .checkout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+</style>
+
+<section class="row">
+  <article class="col-sm-9">
+    <div class="cart-items">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="images/1006.png" class="product-img">
+              iPhone 14 Pro Max 128GB
+            </td>
+            <td>25.000.000đ</td>
+            <td>1</td>
+            <td>25.000.000đ</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+  <aside class="col-sm-3">
+    <div class="cart-total">
+      <p>Subtotal: <span>25.000.000đ</span></p>
+      <p>Total: <span style="font-size: 1.5em; color: red;">25.000.000đ</span></p>
+      <a href="#" class="checkout-btn">Checkout</a>
+    </div>
+
+  </aside>
+</section>

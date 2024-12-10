@@ -1,0 +1,21 @@
+<h1>Quản lý danh mục sản phẩm</h1>
+<a href="#!addCategory" class="btn btn-danger">Thêm Mới</a>
+<table class="table table-bordered">
+    <tbody>
+
+        <table class="table table-bordered ">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>ACTION</th>
+            </tr>
+            <tr ng-repeat="category in arr">
+                <td>{{category.id}}</td>
+                <td>{{category.name}}</td>
+                <td><a href="" ng-click="deleteSP(category.id)" class="btn btn-danger">Delete</a>
+                <a href="#!updateCategory/{{category.id}}" ng-click="" class="btn btn-danger">Update</a>
+                </td>
+            </tr>
+        </table>
+    </tbody>
+</table>

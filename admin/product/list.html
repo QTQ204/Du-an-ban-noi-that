@@ -1,0 +1,32 @@
+<div>
+    <a href="#!addProducts" class="btn btn-success">Thêm mới</a>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Category</th>
+                    <th>Image</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="product in arr">
+                    <td>{{ product.id }}</td>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.price }}</td>
+                    <td>{{ product.quantity }}</td>
+                    <td>{{ product.categoryName }}</td>
+                    <th><img  ng-src="{{product.img}}" width="150px"></th>
+                    <td>
+                        <button class="btn btn-warning" ng-click="deleteSP(product.id)">Delete</button>
+                        <a class="btn btn-danger" href="#!updateProduct/{{ product.id }}">Edit</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>

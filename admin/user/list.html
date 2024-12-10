@@ -1,0 +1,34 @@
+<div class="p-2">
+<h1>User</h1>
+<hr>
+<a href="#!addUser" class="btn btn-primary">Thêm mới</a>
+<table class="table table-hover text-center mt-2">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Tên</th>
+            <th>Mật khẩu</th>
+            <th>Email</th>
+            <th>số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>vai trò</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in arr">
+            <td> {{item.id}} </td>
+            <td> {{item.username}}</td>
+            <td> {{item.password}} </td>
+            <td> {{item.email}} </td>
+            <td> {{item.sdt}} </td>
+            <td> {{item.diaChi}} </td>
+            <td> {{item.role}} </td>
+            <td>
+                <button type="submit" ng-click="xoaSP(item.id)" class="btn btn-danger">Xóa</button>
+                <a href="#!update/{{item.id}}"  class="btn btn-info">Sửa</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

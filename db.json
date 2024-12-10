@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Hoanancut",
+      "img": "images/1004.jpg",
+      "price": "4",
+      "quantity": "102",
+      "categoryId": 1,
+      "categoryName": "Máy Tính",
+      "category": "1"
+    },
+    {
+      "id": "3",
+      "name": "Nokia",
+      "img": "images/1013.jpg",
+      "price": 5000,
+      "quantity": 200,
+      "categoryId": 1,
+      "categoryName": "Máy Tính"
+    },
+    {
+      "id": "4",
+      "name": "Asus",
+      "img": "",
+      "price": 6000,
+      "quantity": 30,
+      "categoryId": 2,
+      "categoryName": "Máy Tính",
+      "category": "1"
+    },
+    {
+      "id": "5",
+      "name": "HP",
+      "img": "",
+      "price": 7000,
+      "quantity": 820,
+      "categoryId": 2
+    },
+    {
+      "id": "6",
+      "name": "Lenovo",
+      "img": "",
+      "price": 1000,
+      "quantity": 300,
+      "categoryId": 2,
+      "category": "2"
+    },
+    {
+      "id": "8b27",
+      "name": "q",
+      "price": "1",
+      "quantity": "1",
+      "categoryId": "1",
+      "categoryName": "Điện Thoại",
+      "category": "1"
+    },
+    {
+      "id": "299e",
+      "name": "ducanh",
+      "price": "1",
+      "quantity": "123",
+      "categoryId": "2",
+      "categoryName": "Máy Tính"
+    },
+    {
+      "id": "6b0f",
+      "name": "quang",
+      "price": "2132",
+      "quantity": "1",
+      "categoryId": "1",
+      "categoryName": "Điện",
+      "category": "2"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Điện Thoai"
+    },
+    {
+      "id": "2",
+      "name": "Máy Tính"
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "username": "hoanthinh",
+      "password": 123456,
+      "email": "hoanthinh@gmail.com",
+      "sdt": "0963743496",
+      "diaChi": "Quốc oai",
+      "role": "admin"
+    },
+    {
+      "id": "1",
+      "username": "ầdsvdsvds",
+      "password": "55555",
+      "diaChi": "Quốc oai",
+      "role": "user",
+      "email": "hoanthinh@gmail.com",
+      "sdt": "0963743496"
+    },
+    {
+      "id": "c936",
+      "username": "hoanthinh",
+      "password": "44444444",
+      "email": "hoanthih@gmail.com",
+      "sdt": "0963743496",
+      "diaChi": "Quốc oai",
+      "role": "admin"
+    },
+    {
+      "id": "bfa7",
+      "username": "trường Lừa tình Vân Anh",
+      "password": "36363636",
+      "email": "hoanthih@gmail.com",
+      "sdt": "05555555555",
+      "diaChi": "Thanh hóa 678, JQK",
+      "role": "admin"
+    },
+    {
+      "id": "145a",
+      "username": "hoanthinh",
+      "password": "44444447",
+      "email": "hoanthih@gmail.com",
+      "sdt": "0963743496",
+      "diaChi": "Thanh hóa 678, JQK",
+      "role": "user"
+    },
+    {
+      "id": "ee51",
+      "username": "dscsd",
+      "password": "56565656",
+      "email": "hoan311@gmail.com",
+      "diaChi": "hà âty",
+      "sdt": "00000000000",
+      "role": "admin"
+    }
+  ]
+}

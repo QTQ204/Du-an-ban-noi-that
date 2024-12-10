@@ -1,0 +1,55 @@
+<div class="row m-1 py-2"
+  style=" border-top: 5px solid #193687;border-bottom: 5px solid #193687; border-radius: 5px; background-color: rgb(244, 241, 241);">
+  <form action="" style="padding: 80px;">
+    <div class="container-fluid text-center">
+      <h2>Đăng Ký</h2>
+      <p>Vui lòng nhập đầy đủ và chính xác thông tin</p>
+    </div>
+    <div class="mb-3">
+      <label for="dangNhap" class="form-label">Tên Đăng Nhập</label>
+      <input type="text" class="form-control" id="dangNhap" placeholder="Vui lòng nhập tên đăng nhập">
+    </div>
+    <div class="mb-3">
+      <label for="matKhau" class="form-label">Mật Khẩu</label>
+      <input type="password" class="form-control" id="matKhau" placeholder="Vui lòng nhập mật khẩu">
+    </div>
+    <div class="mb-3">
+      <label for="hoTen" class="form-label">Họ và tên</label>
+      <input type="text" class="form-control" id="hoTen" placeholder="Vui lòng nhập họ tên">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Vui lòng nhập email">
+    </div>
+    <div class="form-group mb-3">
+      <label for="">Số Điện Thoại</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">+083</span>
+        </div>
+        <input class="form-control" type="text" name="" placeholder="Số điện thoại" aria-label="">
+
+      </div>
+      <div class="mb-3">
+        <label for="ngaySinh" class="form-label">Ngày sinh</label>
+        <input type="date" class="form-control" id="ngaySinh" style="width: 200px;">
+      </div>
+
+      <div class="mb-3">
+        <div class="form-group col-sm-1">
+          <label for="">Giới Tính</label>
+          <select name="" id="" class="form-control">
+            <option value="">Nam </option>
+            <option value="">Nữ</option>
+            <option value="">Khác</option>
+
+          </select>
+        </div>
+        <div class="container-fluid text-center mt-3">
+          <div>
+            <button type="submit" ng-click="addUser()" class="btn btn-success">Đăng Ký</button>
+            <a href="#!account/dangNhap" class="btn btn-info">Đăng Nhập</a>
+          </div>
+        </div>
+  </form>
+</div>
